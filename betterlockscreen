@@ -203,7 +203,7 @@ case "$1" in
 		;;
 
 	-s | --suspend)
-		lockselect "$2" "systemctl suspend"
+		lockselect "$2"
 		;;
 
 	-w | --wall)
