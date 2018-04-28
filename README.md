@@ -123,6 +123,10 @@ To set desktop background on startup, add following lines to your .xintrc after 
 exec betterlockscreen -w
 ```
 
+### Suspend and lockscreen using systemd
+
+To lockscreen whenever system is suspended see this [issue](https://github.com/pavanjadhaw/betterlockscreen/issues/51)
+
 If you are i3wm user, add following line to your i3config (~/.config/i3/config or ~/.i3/config)
 
 *custom shortcut to lockscreen*
